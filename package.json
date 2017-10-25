@@ -1,0 +1,27 @@
+{
+  "name": "node_database",
+  "version": "1.0.0",
+  "description": "Chapter 5. 데이터베이스 접근하기 - Node.js 정석  ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeedy/node_database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeedy/node_database/issues"
+  },
+  "homepage": "https://github.com/jeedy/node_database#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
