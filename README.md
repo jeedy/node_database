@@ -18,28 +18,17 @@ Chapter 5. 데이터베이스 접근하기 - Node.js 정석
 
 ## CouchDB
 설치
-
-$ brew install couchdb
-
+- $ brew install couchdb
 
 실행 
-
-$ couchdb
-
+- $ couchdb
 
 쿼리
-
-$ curl -X POST 'http://localhost:5984/books' // 생성
-
-$ curl -X PUT 'http://localhost:5984/books' // 생성 및 갱신
-
-$ curl -X GET 'http://localhost:5984/books' // 조회
-
-$ curl -X DELETE 'http://localhost:5984/books' // 삭제
-
+- $ curl -X POST 'http://localhost:5984/books' // 생성
+- $ curl -X PUT 'http://localhost:5984/books' // 생성 및 갱신
+- $ curl -X GET 'http://localhost:5984/books' // 조회
+- $ curl -X DELETE 'http://localhost:5984/books' // 삭제
 
 데이터 예제 (Project Gutenberg)
-
-$ curl -O http://www.gutenberg.org/cache/epub/feeds/rdf-files.tar.bz2
-
-$ tar -xvjf rdf-files.tar.bz2
+- $ curl -O http://www.gutenberg.org/cache/epub/feeds/rdf-files.tar.bz2
+- $ tar -xvjf rdf-files.tar.bz2
