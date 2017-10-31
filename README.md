@@ -16,7 +16,19 @@ Chapter 5. 데이터베이스 접근하기 - Node.js 정석
 ## 자바스크립티즘
  자바스트립트 함수들을 특정 환경에서 다른 환경으로 내보내는 방법.
 
-## 지원코드
-
-
 ## CouchDB
+설치
+$ brew install couchdb
+
+실행 
+$ couchdb
+
+쿼리
+$ curl -X POST 'http://localhost:5984/books' // 생성
+$ curl -X PUT 'http://localhost:5984/books' // 생성 및 갱신
+$ curl -X GET 'http://localhost:5984/books' // 조회
+$ curl -X DELETE 'http://localhost:5984/books' // 삭제
+
+데이터 예제 (Project Gutenberg)
+$ curl -O http://www.gutenberg.org/cache/epub/feeds/rdf-files.tar.bz2
+$ tar -xvjf rdf-files.tar.bz2
