@@ -29,10 +29,10 @@ $ couchdb
 
 쿼리
 ```
-$ curl -X POST 'http://localhost:5984/books' // 생성
-$ curl -X PUT 'http://localhost:5984/books' // 생성 및 갱신
-$ curl -X GET 'http://localhost:5984/books' // 조회
-$ curl -X DELETE 'http://localhost:5984/books' // 삭제
+$ curl -X POST 'http://localhost:5984/books'    // 생성
+$ curl -X PUT 'http://localhost:5984/books'     // 생성 및 갱신
+$ curl -X GET 'http://localhost:5984/books'     // 조회
+$ curl -X DELETE 'http://localhost:5984/books'  // 삭제
 ```
 
 데이터 예제 (Project Gutenberg)
