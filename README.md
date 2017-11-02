@@ -18,6 +18,7 @@ Chapter 5. 데이터베이스 접근하기 - Node.js 정석
 
 ## CouchDB
 > 참고 API : [http://docs.couchdb.org/en/1.6.1/intro/api.html]
+> HTTP API reference : [http://docs.couchdb.org/en/1.6.0/http-api.html]
 
 설치
 ```
