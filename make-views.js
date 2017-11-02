@@ -16,7 +16,7 @@ const
         //create a new design doc or use exisiting
         function(res , body, next){
             if(res.statusCode === 200) {
-                next(null, JSN.parse(body));
+                next(null, JSON.parse(body));
             }else if(res.statusCode === 404){
                 next(null, {views: {} });
             }
@@ -24,6 +24,7 @@ const
 
         // add Views to document and submit
         function(doc, next){
+            console.log(doc);
             Object.keys(views).forEach(function(name){
                 doc.views[name] = views[name];
             });
